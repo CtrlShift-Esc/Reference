@@ -1,0 +1,11 @@
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+void main()
+{
+	vector<int> vt = { 1, 2, 3, 4, 5 };
+	int max = *max_element(vt.begin(), vt.end());
+	int min = *min_element(vt.begin(), vt.end());
+}
